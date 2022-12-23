@@ -104,3 +104,14 @@
 //     i++;
 // }
 // ------------------------------------  
+
+// Задача №6. Повторять цикл, пока ввод неверен или не нажали Cancel
+
+// Вариант 1
+// while(true){
+//        let num = +prompt('Введите число больше 100','');
+//        if (num>100 || !!num == false) break}
+//num=50        false || false ==> false => Vvedite chslo
+//num=150       true  || false ==> true => STOP
+//num=Cancel(0) false || true ==> false => Vvedite chslo
+//num=''(0)     false || true ==> false => Vvedite chslo
